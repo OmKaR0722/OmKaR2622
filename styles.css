@@ -1,0 +1,111 @@
+/* --- General Styling --- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* --- Navigation Bar --- */
+header {
+    background: #111;
+    padding: 15px 0;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* --- Hero Section --- */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #00aaff;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* --- Blog Section --- */
+.blog-section {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.blog-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    background: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-card h3 {
+    margin: 15px 0 10px;
+}
+
+.blog-card p {
+    color: #555;
+}
+
+.blog-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #00aaff;
+    font-weight: bold;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+}
